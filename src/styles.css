@@ -1,1 +1,126 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/*body{
+  background-color: #a0a2a5 !important;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}*/
+
+.bodyClass1{
+	background-color: #f8f9fa !important;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.bodyClass2 {
+  background: url('./assets/images/bg1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute !important;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.mat-card-header {
+    display: block;
+    text-align: center;
+}
+
+.mat-card-footer {
+  display: block !important;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.mat-card-header .mat-card-title, .mat-card-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.text-left
+{
+  text-align: left;
+}
+
+.text-right
+{
+  text-align: right;
+}
+
+.material-icons
+{
+  font-size: 20px;
+}
+
+.custom-error
+{
+  font-size: 15px;
+  font-style: italic;
+}
+
+.mat-toolbar.mat-primary
+{
+  background: #343a40;
+}
+
+.mat-drawer
+{
+  background-color: #343a40;
+}
+
+.mat-nav-list .mat-list-item
+{
+  color: #fff;
+}
+
+.mat-header-cell
+{
+  text-align: center !important;
+  background-color: #212529;
+  color: #fff;
+}
+
+td.mat-cell
+{
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.cdk-overlay-connected-position-bounding-box {
+  left: 10px !important;
+}
+
+.mat-progress-spinner
+{
+  z-index: 9999;
+}
+
+table.mat-table {
+  z-index: 0;
+}
